@@ -1,15 +1,14 @@
 
 
 
-
-
+```
 Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
    -----------------------------------------------------------------------------------------------------
    |  DESCRICAO  |  IP             |   hostname    |           FQDN                 |       aliase     |
    -----------------------------------------------------------------------------------------------------
    | rede        | 192.168.13.0     |
    | máscara     | 255.255.240.0    |
-   | gateway
+   | gateway     |                  |
    | VM1-PC1     | 192.168.13.130   |   vm1-pc1     | vm1-pc1.grupo9-913.ifalara.net |     maiaVM1      |
    | VM2-PC1     | 192.168.13.131   |   vm2-pc1     | vm2-pc1.grupo9-913.ifalara.net |     maiaVM2      |
    | VM1-PC2     | 192.168.13.132   |   vm1-pc2     | vm1-pc2.grupo9-913.ifalara.net |     maiaVM3      |
@@ -19,3 +18,4 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
    | VM1-PC4     | 192.168.13.137   |   vm1-pc4     | vm1-pc4.grupo9-913.ifalara.net |     camiVM7      |
    | VM2-PC4     | 192.168.13.138   |   vm2-pc4     | vm2-pc4.grupo9-913.ifalara.net |     grup2        |
    ------------------------------------------------------------------------------------------------------
+```
