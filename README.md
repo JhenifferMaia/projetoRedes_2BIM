@@ -43,7 +43,7 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
    
    4. Agora nomearemos nossos servidores de acordo com os hostnames da tabela.
 
-   4.1 'Digite: sudo hostnamectl set-hostname <hostname>', de acordo com as VMs e os PCs coloque os respectivo hostname.
+   4.1 'Digite: sudo hostnamectl set-hostname <hostname>', de acordo com as VMs e os PCs coloque o respectivo hostname.
 
    INSTALAÇÃO DOS SOFTWARES
    
@@ -53,13 +53,28 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
   
    2.1 Primeiro atualize as definições e versões de pacotes/bibliotecas dos repositórios do ubuntu através do comando 'sudo apt update'.
   
+   2.2 Agora atualize os pacotes com as novas definições e versões com o comando: 'sudo apt upgrade -y'.
+  
    ![image](https://user-images.githubusercontent.com/103265116/186735147-a285b9ad-f7e9-4937-ae85-727ad3f2822f.png)
   
+   
    Esses processos podem demorar um pouco, então seja paciente ;p
-
   
-   2.2 Agora 
+   2.3 Agora instale o SSH server, digite: 'sudo apt-get install openssh-server'.
+  
+   2.4 Após instalar verifique se está funcionando através do comando: 'systemctl status ssh'.
+  
+   ![image](https://user-images.githubusercontent.com/103265116/186736697-cd6eaeaa-54e5-467b-8f38-57cdc0004b73.png)
+  
+   3. Após a intalação do SSH server estiver concluida, iremos configurar o firewall para que conexões via protocolo SSH na porta 22 sejam permitidas.
+  
+   3.1 Digite o comando: 'sudo ufw allow ssh', para ativar o ssh no firewall UFW do ubuntu.
+  
+   3.2 Agora ative o firewall através de 'sudo ufw enable'.
+  
+   3.3 Verifique o status das portas do sistema usando: 'netstat -an | grep LISTEN', as conexões TCP na porta 22 devem estar como LISTENING
+  
+   ![image](https://user-images.githubusercontent.com/103265116/186738095-5efef6f3-b31d-4a8e-8a31-bf53d776df24.png)
+   
+     
 
-      
-    
-    
