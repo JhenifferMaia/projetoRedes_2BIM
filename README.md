@@ -32,15 +32,15 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
             dhcp4: false                  
     version: 2 .
     
-    3.3 Dê ctrl + x e salve o arquivo, aplique a nova configuração usando: 'sudo netplan apply', e verifique com: 'ifconfig -a'
+   3.3 Dê ctrl + x e salve o arquivo, aplique a nova configuração usando: 'sudo netplan apply', e verifique com: 'ifconfig -a'
     
     
     
-      CONECTANDO OS PCs
+   CONECTANDO OS PCs
       
-      1. Após ter configurado todas VMs nos PCs, vá em configurações da VM e na aba redes mude o 'conectado a' para placa em modo bridge. (Para fazer isso primeiro feche a VM).
+   1. Após ter configurado todas VMs nos PCs, vá em configurações da VM e na aba redes mude o 'conectado a' para placa em modo bridge. (Para fazer isso primeiro feche a VM).
       
-      2. Assim que todos tiverem conectados teste o ping usando: "ping ip da rede"
+   2. Assim que todos tiverem conectados teste o ping usando: "ping ip da rede"
       
       
     
