@@ -10,6 +10,7 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
 
 4.1 Ao entrar você irá encontrar uma aba acima, onde você apertará em arquivo, após abrir as opções você vai em importar Appliance e procurará onde foi alocado o Unbutu, e onde você deseja criar a VM.
 
+![image](https://user-images.githubusercontent.com/103265116/186730518-1dbab2ec-1dfc-4fe8-8e27-d1ac1b33074b.png)
 
 
 4.2 Após abrir o Unbutu, você poderá configurar sua máquina virtual, poderá mudar seu nome, quantidade de memória RAM e de armazenamento que ela irá usar.
@@ -60,8 +61,6 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
    1. Após ter configurado todas VMs nos PCs, vá em configurações da VM e na aba redes mude o 'conectado a' para placa em modo bridge. (Para fazer isso primeiro feche a VM).
       
    2. Assim que todos tiverem conectados teste o ping usando: "ping ip da rede"
-   
-   ![image](https://user-images.githubusercontent.com/103265116/186730393-ad5cba15-d5fc-4649-8c7b-f70343414e91.png)
 
       
     
