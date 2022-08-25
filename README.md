@@ -1,19 +1,12 @@
 TUTORIAL PARA A CRIAÇÃO DE VMs
 
-1. Antes de tudo devemos baixar o Unbutu, nós podemos encontra-lo em https://multipass.run/install (aqui apenas estamos instalando uma image, para conseguir reproduzi-la precisaermos do Virtual Box, encontrado em: https://www.virtualbox.org/wiki/Downloads)
+1. Primeiro abriremos o terminal e baixaremos o VirtualBox extension, abriremos a pasta desejada usando 'su redes', e após isso 'sudo apt install virtualbox-ext-pack'
 
-2. Após seguir todos os passos para fazer a instalação do Virtual Box, você precisará criar uma pasta para criar suas VMs (Virtual Machine ou Máquina Virtual).
+2. 
 
-3. Antes de criar a VM precisaremos baixar a Virtualbox Extension Pack, abra o terminal e digite: sudo apt install virtualbox-ext-pack.
-
-4. Criada as pastas e Virtual Box baixado, você irá abri-lo e criará sua primeira VM.
-
-4.1 Ao entrar você irá encontrar uma aba acima, onde você apertará em arquivo, após abrir as opções você vai em importar Appliance e procurará onde foi alocado o Unbutu, e onde você deseja criar a VM.
+4.1 Ao entrar você irá encontrar uma aba acima, onde você apertará em arquivo, após abrir as opções você vai em importar Appliance e procurará onde foi alocado o Unbutu, e onde você deseja criar a VM, assim como configurar a quantidade de memoria que usará e o nome dela.
 
 ![image](https://user-images.githubusercontent.com/103265116/186730672-32c4f316-b993-4cc0-a1f5-fb720cd61853.png)
-
-
-4.2 Após abrir o Unbutu, você poderá configurar sua máquina virtual, poderá mudar seu nome, quantidade de memória RAM e de armazenamento que ela irá usar.
 
 4.3 Ao criar, agora é só abrir para que possamos configura-lá.
 
@@ -27,14 +20,8 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
 
   3.2 Configure dessa forma:
   
-        network:
-    ethernets:
-        enp0s3:                           
-            addresses: [192.168.13.130/28] #Olhando a tabela percebe-se que para cada nova VM criada os ultimos digitos do ip mudam sempre somando 1.     
-            gateway4: 192.168.13.129          
-            dhcp4: false                  
-    version: 2 .
-  
+        ![image](https://user-images.githubusercontent.com/103265116/186731248-4f5b2f43-93a8-43e8-a67d-6a7c0869f168.png)
+
         Tabela: Definições de endereços IPs da Rede e Nomes de Hosts
     -----------------------------------------------------------------------------------------------------
     |  DESCRICAO  |  IP             |   hostname    |           FQDN                 |       aliase     |
