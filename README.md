@@ -10,7 +10,7 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
 
 4.1 Ao entrar você irá encontrar uma aba acima, onde você apertará em arquivo, após abrir as opções você vai em importar Appliance e procurará onde foi alocado o Unbutu, e onde você deseja criar a VM.
 
-![image](https://user-images.githubusercontent.com/103265116/186730518-1dbab2ec-1dfc-4fe8-8e27-d1ac1b33074b.png)
+![image](https://user-images.githubusercontent.com/103265116/186730672-32c4f316-b993-4cc0-a1f5-fb720cd61853.png)
 
 
 4.2 Após abrir o Unbutu, você poderá configurar sua máquina virtual, poderá mudar seu nome, quantidade de memória RAM e de armazenamento que ela irá usar.
