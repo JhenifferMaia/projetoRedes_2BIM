@@ -20,7 +20,7 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
 
   3.2 Configure dessa forma:
   
-        ![image](https://user-images.githubusercontent.com/103265116/186731248-4f5b2f43-93a8-43e8-a67d-6a7c0869f168.png)
+   ![image](https://user-images.githubusercontent.com/103265116/186731248-4f5b2f43-93a8-43e8-a67d-6a7c0869f168.png)
 
         Tabela: Definições de endereços IPs da Rede e Nomes de Hosts
     -----------------------------------------------------------------------------------------------------
