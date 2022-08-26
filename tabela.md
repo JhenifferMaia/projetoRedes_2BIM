@@ -1,8 +1,8 @@
 
 
+Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 
 ```
-#Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
    -----------------------------------------------------------------------------------------------------
    |  DESCRICAO  |  IP             |   hostname    |           FQDN                 |       aliase     |
    -----------------------------------------------------------------------------------------------------
@@ -16,6 +16,6 @@
    | VM1-PC3     | 192.168.13.135   |   vm1-pc3     | vm1-pc3.grupo9-913.ifalara.net |     joaoMV5      |
    | VM2-PC3     | 192.168.13.136   |   vm2-pc3     | vm2-pc3.grupo9-913.ifalara.net |     camiVM6      |
    | VM1-PC4     | 192.168.13.137   |   vm1-pc4     | vm1-pc4.grupo9-913.ifalara.net |     camiVM7      |
-   | VM2-PC4     | 192.168.13.138   |   vm2-pc4     | vm2-pc4.grupo9-913.ifalara.net |     grup2        |
+   | VM2-PC4     | 192.168.13.138   |   vm2-pc4     | vm2-pc4.grupo9-913.ifalara.net |     maiaVM2      |
    ------------------------------------------------------------------------------------------------------
 ```
