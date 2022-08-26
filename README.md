@@ -78,8 +78,14 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
    
    CONECTANDO AS VMs
   
-  1. Primeiro de tudo, iremos nas configurações da VM(Precisa estar desligada) e em 'Rede' mudaremos o adaptador para placa em modo bridge e atualizaremos o endereço MAC
+   1. Primeiro de tudo, iremos nas configurações da VM(Precisa estar desligada) e em 'Rede' mudaremos o adaptador para placa em modo bridge colocando o 'Nome' em eno1 e atualizaremos o endereço MAC.
   
   ![image](https://user-images.githubusercontent.com/103265116/186921839-6eb052bb-37bf-4910-add6-3cd00a44eaeb.png)
+  
+  2. Após fazer esse processo, abra a VM e mude as configurações de rede no YAML usando o codigo: 'sudo nano /etc/netplan/01-netcfg.yaml' e mudaremos o dchp4 para false. Lembre-se de dar o 'sudo netplans apply'
+  
+  ![image](https://user-images.githubusercontent.com/103265116/186922805-1096bf1c-7757-4a2f-b790-d03ead63e85c.png)
+
+  
 
 
