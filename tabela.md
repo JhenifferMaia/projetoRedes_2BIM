@@ -2,11 +2,11 @@
 
 
 ```
-Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
+#Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
    -----------------------------------------------------------------------------------------------------
    |  DESCRICAO  |  IP             |   hostname    |           FQDN                 |       aliase     |
    -----------------------------------------------------------------------------------------------------
-   | rede        | 192.168.13.128   |
+   | rede        | 192.168.13.129   |
    | máscara     | 255.255.240.0    |
    | gateway     |                  |
    | VM1-PC1     | 192.168.13.130   |   vm1-pc1     | vm1-pc1.grupo9-913.ifalara.net |     maiaVM1      |
