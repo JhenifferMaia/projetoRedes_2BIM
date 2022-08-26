@@ -1,6 +1,6 @@
 TUTORIAL PARA A CRIAÇÃO DE VMs
 
-1. Primeiro abriremos o terminal e baixaremos o VirtualBox extension, abriremos a pasta desejada usando 'su redes', e após isso 'sudo apt install virtualbox-ext-pack'
+1. Primeiro abriremos o terminal e baixaremos o VirtualBox extension: abriremos a pasta desejada usando 'su <nome da pasta>', e após isso 'sudo apt install virtualbox-ext-pack'
 
 2. Antes de abirir a VirtualBox precisaremos criar uma pasta para armazenar nossas VMs.
 
