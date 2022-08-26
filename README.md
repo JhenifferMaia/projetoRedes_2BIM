@@ -76,5 +76,10 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
   
    ![image](https://user-images.githubusercontent.com/103265116/186738095-5efef6f3-b31d-4a8e-8a31-bf53d776df24.png)
    
-     
+   CONECTANDO AS VMs
+  
+  1. Primeiro de tudo, iremos nas configurações da VM(Precisa estar desligada) e em 'Rede' mudaremos o adaptador para placa em modo bridge e atualizaremos o endereço MAC
+  
+  ![image](https://user-images.githubusercontent.com/103265116/186921839-6eb052bb-37bf-4910-add6-3cd00a44eaeb.png)
+
 
