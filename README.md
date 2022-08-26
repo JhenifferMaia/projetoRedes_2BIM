@@ -84,10 +84,12 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
   
   ![image](https://user-images.githubusercontent.com/103265116/186921839-6eb052bb-37bf-4910-add6-3cd00a44eaeb.png)
   
-  2. Após fazer esse processo, abra a VM e mude as configurações de rede no YAML usando o codigo: 'sudo nano /etc/netplan/01-netcfg.yaml' e mudaremos o dchp4 para false. Lembre-se de dar o 'sudo netplans apply'
+  2. Após fazer esse processo, abra a VM e mude as configurações de rede no YAML usando o codigo: 'sudo nano /etc/netplan/01-netcfg.yaml' e mudaremos o dchp4 para false. Lembre-se de dar o 'sudo netplan apply'.
   
   ![image](https://user-images.githubusercontent.com/103265116/186922805-1096bf1c-7757-4a2f-b790-d03ead63e85c.png)
 
+  3. Após ter feito esse mesmo processo em todas as VMs, conecte os PCs ao switch.
   
+  4. Escolha um principal e teste a conectividade através de 'ping <endereço ip/hostname/fqdn/alias de cada VM criada(uma por vez)>'.
 
 
