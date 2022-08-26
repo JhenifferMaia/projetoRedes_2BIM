@@ -38,6 +38,8 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
     | VM1-PC4     | 192.168.13.137   |   vm1-pc4     | vm1-pc4.grupo9-913.ifalara.net |     camiVM7      |
     | VM2-PC4     | 192.168.13.138   |   vm2-pc4     | vm2-pc4.grupo9-913.ifalara.net |     grup2        |
     ------------------------------------------------------------------------------------------------------
+  
+    !A cada VM e Pc nós colocaremos um ip diferente, lembre de seguir a tabela para não dar erro!
     
    3.2 Dê ctrl + x e salve o arquivo, aplique a nova configuração usando: 'sudo netplan apply', e verifique com: 'ifconfig -a'
    
