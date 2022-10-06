@@ -50,6 +50,18 @@ TUTORIAL PARA A CRIAÇÃO DE VMs
    4. Agora nomearemos nossos servidores de acordo com os hostnames da tabela.
 
    4.1 'Digite: sudo hostnamectl set-hostname <hostname>', de acordo com as VMs e os PCs coloque o respectivo hostname.
+   4.2 Segue abaixo a tabela de usuários do grupo:
+  
+```
+   ----------------------------------
+   |   USUÁRIO   |      SENHA       |
+   ----------------------------------
+   |   maia      |      maia123     |
+   |   maia2     |      maia123     |
+   |   joao      |      joao123     |
+   |   camila    |     carimila15   |
+   ----------------------------------
+```
 
    INSTALAÇÃO DOS SOFTWARES
    
